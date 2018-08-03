@@ -1,7 +1,7 @@
 ''' Simple python program to encrypt and decrypt files using transposition cipher 
 	module. Requires having the encrypting and decrypting file to import.'''
 
-import transpositionCiper
+import transpositionCipher
 import transpositionCipherDecryptor
 import os
 import sys
