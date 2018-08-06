@@ -1,6 +1,11 @@
 ''' Simple python program to encrypt and decrypt files using transposition cipher 
 	module. Requires having the encrypting and decrypting file to import.'''
 
+''' To decrypt file change the following lines of code:
+	line 16: inputFilename = 'frankenstein.encrypted.txt'
+	line 17: outputFilename = 'frankenstein.decrypted.txt'
+	line 120: myMode = 'decrypt' '''
+
 import transpositionCipher
 import transpositionCipherDecryptor
 import os
